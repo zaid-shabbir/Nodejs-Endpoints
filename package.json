@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-project",
+  "version": "1.0.0",
+  "description": "A nodejs demo project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugcmedia/nodejs-project.git"
+  },
+  "author": "ugcmedia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugcmedia/nodejs-project/issues"
+  },
+  "homepage": "https://github.com/ugcmedia/nodejs-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
